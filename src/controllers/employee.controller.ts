@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { Employee } from "../models/employee";
-import { calculateFinalSalary } from "../services/salaryManager";
+import { calculateFinalSalary } from "../services/salaryCalculatorService";
 
 export const createEmployee = async (req:Request, res:Response) => {
     try {
